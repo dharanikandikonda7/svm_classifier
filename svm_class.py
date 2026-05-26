@@ -16,7 +16,7 @@ st.set_page_config(page_title="SVM Classification", layout="wide")
 st.title(" Student Pass/Fail Prediction Using SVM")
 
 # Read dataset
-df = pd.read_csv(r"C:\Users\DHARANI\OneDrive\Desktop\TechWork\Supervised_Complete\student-por.csv")
+df = pd.read_csv("student-por.csv")
 
 # Remove duplicates
 df = df.drop_duplicates()
